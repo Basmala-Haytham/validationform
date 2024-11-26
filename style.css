@@ -1,0 +1,62 @@
+body{
+    background:radial-gradient(circle,steelblue 50% ,lightsteelblue 100%);
+}
+
+#form{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4 px;
+    font-size: 12px;
+}
+
+h1{
+    color: #0f2027;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(17, 17, 110);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+span{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+input:focus{
+    outline: 0;   
+}
+
+.input-control.success input{
+    border-color: #09c372;
+
+}
+
+.input-control.error input{
+    border-color: #ff3860;
+}
+
